@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="rocks.js"></script>
+    <link rel="stylesheet" href="./rps.css">
 </head>
 <body>
-
+    <h1><span>RPS Royale</span></h1>
+    <div class="test">
+        <div>
+            <h2>You</h2>
+            <span class="result-score">0</span>
+            <div id="your-choice" class="choice"></div>
+        </div>
+        <div>
+            <h2>vs</h2>
+            </div>
+        <div>
+            <h2>Computer</h2>
+            <span class="result-score">0</span>
+            <div id="comp-choice" class="choice"></div>
+        </div>
+    </div>
+    <span id="middle">Choose one</span>
+    <div class="selections">
+        <button class="selection"><img src="./rock.jpeg" alt="rock"></button>
+        <button class="selection"><img src="./paper.jpeg" alt="paper"></button>
+        <button class="selection"><img src="./scissors.jpeg" alt="scissors"></button>
+    </div>
+    <script src="./rps.js"></script>
 </body>
 </html>
